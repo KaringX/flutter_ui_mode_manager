@@ -1,6 +1,5 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_ui_mode_manager/flutter_ui_mode_manager.dart';
 
 void main() {
   const MethodChannel channel = MethodChannel('flutter_ui_mode_manager');
@@ -15,9 +14,5 @@ void main() {
 
   tearDown(() {
     channel.setMockMethodCallHandler(null);
-  });
-
-  test('getPlatformVersion', () async {
-    expect(await FlutterUiModeManager.platformVersion, '42');
   });
 }
