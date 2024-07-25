@@ -80,7 +80,6 @@ public class FlutterUiModeManagerPlugin: FlutterPlugin, MethodCallHandler, Activ
   }
 
   override fun onDetachedFromActivityForConfigChanges() {
-    TODO("Not yet implemented")
   }
 
   override fun onReattachedToActivityForConfigChanges(binding: ActivityPluginBinding) {
@@ -88,6 +87,5 @@ public class FlutterUiModeManagerPlugin: FlutterPlugin, MethodCallHandler, Activ
   }
 
   override fun onDetachedFromActivity() {
-    TODO("Not yet implemented")
   }
 }
